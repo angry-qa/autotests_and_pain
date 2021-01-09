@@ -33,5 +33,7 @@ public class ActionTests {
                 .until(ExpectedConditions.presenceOfElementLocated(By.id("bal3")));
 
         Assert.assertTrue(debitTable.isDisplayed());
+
+        driver.quit();
     }
 }
